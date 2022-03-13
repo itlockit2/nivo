@@ -244,15 +244,7 @@ export const computeWeekdays = ({
     direction,
     daySpacing,
     ticks = [1, 3, 5],
-    arrayOfWeekdays = [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-    ],
+    arrayOfWeekdays = ['일', '월', '화', '수', '목', '금', '토'],
 }: ComputeWeekdays) => {
     const sizes = {
         width: cellWidth + daySpacing,
